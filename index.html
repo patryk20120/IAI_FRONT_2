@@ -1,0 +1,725 @@
+<!--
+    Strona responsywna WWW (RWD), „Mobile-First" Pixel-Perfect - odwzorowanie projektu 1:1   
+    
+    Zgodność ze standardami W3C 
+    
+    Dla ikon wykorzystaj fontello (https://fontello.com, paczka ikon w załączniku) 
+    
+    Grafiki zoptymalizowane  
+    
+    Animacje w CSS na elementy interaktywne Dowolny stack technologiczny  
+    
+    Informacje dodatkowe: Font: Noto Sans Regular, Amatic SC - etykiety (https://fonts.google.com/)  
+    
+    Kolory HEX:   
+    beż1        #F6F6F6 
+    niebieski   #346D99 
+    niebieski j #F3F3F3
+    pomarancz   #FCB243 
+    czarny      #090909 
+    szary       #EDEDED 
+    pomarancz 2 #F6C64B
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/fontello.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style_desktop.css" />
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/images/logo.svg" alt="" />
+                </a>
+            </div>
+            <div class="search">
+                <a href="#">
+                    <i class="demo-icon icon-search"></i>
+                </a>
+            </div>
+            <div class="basket">
+                <a href="#">
+                    <i class="demo-icon icon-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="menu">
+                <a href="#">
+                    <i class="demo-icon icon-menu-1"></i>
+                </a>
+            </div>
+            <div class="search_desktop">
+                <input type="text" placeholder="Wpisz czego szukasz" />
+                <i class="demo-icon icon-search"></i>
+            </div>
+            <div class="login_desktop">
+                <a href="#">Zaloguj się</a>
+            </div>
+            <div class="list_desktop">
+                <a href="#">Lista zakupowa</a>
+            </div>
+            <div class="basket_desktop">
+                <a href="#">
+                    <i class="demo-icon icon-shopping-cart"></i>
+                    <span>348,00 zł</span>
+                    <i class="demo-icon icon-right-open"></i>
+                </a>
+            </div>
+        </header>
+
+        <div id="big_menu">
+            <a href="#">
+                Dom
+            </a>
+            <a href="#">
+                Dziecko
+            </a>
+            <a href="#">
+                Elektronika
+            </a>
+            <a href="#">
+                Kuchnia
+            </a>
+            <a href="#">
+                Prezent
+            </a>
+            <a href="#">
+                Narzędzia i BHP
+            </a>
+            <a class="accent" href="#">
+                Wyprzedaż
+            </a>
+        </div>
+
+        <div id="breadcrumb">
+            <div class="back">
+                <a href="#">
+                    <i class="demo-icon icon-left-open"></i> Wstecz
+                </a>
+            </div>
+            <div class="divider">
+                |
+            </div>
+            <div class="current_path">
+                Jesteś tutaj: <a href="#" class="active">Czujki ruchu alarmowe</a> <i class="demo-icon icon-right-open"></i> Wynik
+            </div>
+        </div>
+    </div>
+
+    <div id="product_box">
+        <div class="breadcrumb-desktop">
+            <span>
+                <a href="#">Strona główna</a>
+            </span>
+            <span>
+                <a href="#">Dziecko</a>
+            </span>
+            <span>
+                <a href="#">Zastawa stołowa</a>
+            </span>
+            <span>
+                <a href="#">Bambusowe naczynia dla dzieci</a>
+            </span>
+        </div>
+        <div id="product_details">
+            <div class="product_photo">
+                <div class="onlyDesktop tag_bestseller">
+                    BESTSELLER
+                </div>
+                <div class="carusel onlyDesktop">
+                    <img src="assets/images/thumb-1.png" alt="" />
+                    <img src="assets/images/thumb-2.png" alt="" />
+                    <img src="assets/images/thumb-3.png" alt="" />
+                    <img src="assets/images/thumb-4.png" alt="" />
+                    <div class="more_photos">
+                        +3 zdjęcia
+                    </div>
+                </div>
+                <img src="assets/images/photo_1.png" alt="" class="main_photo" />
+            </div>
+            <div class="product_info">
+                <div class="description">
+                    <div class="brand_image">
+                        <img src="assets/images/Image 1.svg" alt="" class="brand" />
+                    </div>
+                    <h1>
+                        Bambusowe Naczynie dla Dzieci Ambition Junior Alex
+                    </h1>
+                    <h2>
+                        5904134571342
+                    </h2>
+                </div>
+                <div class="specification">
+                    <div class="spec_color">
+                        <div class="color_name">
+                            Kolory
+                        </div>
+                        <div class="color_select">
+                            <div class="color active">
+                                <div class="black"></div>
+                            </div>
+                            <div class="color">
+                                <div class="gray"></div>
+                            </div>
+                            <div class="color">
+                                <div class="blue"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shipment">
+                    <div class="available">
+                        Dostępny 3 szt na magazynie
+                    </div>
+                    <div class="links">
+                        <a href="#">
+                    Sprawdź szas i koszt dostawy
+                </a>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="price_current">
+                        29,00
+                    </div>
+                    <div class="price_type">
+                        zł / szt
+                    </div>
+                    <div class="price_promo">
+                        39,00 zł
+                    </div>
+                    <div class="price_tag_promo">
+                        PROMOCJA
+                    </div>
+                </div>
+                <div class="loan">
+                    <a href="#">Kup na raty</a>
+                </div>
+                <div class="cart">
+                    <div class="qty">
+                        <input type="number" value="1" name="" />
+                    </div>
+                    <div class="add_to_cart">
+                        Dodaj do koszyka
+                    </div>
+                </div>
+                <div class="add_to_list">
+                    <a href="#">Do listy zakupowej</a>
+                </div>
+                <hr>
+                <div class="shop_info">
+                    <div class="info">
+                        <span class="icon"><i class="demo-icon icon-group-4320"></i></span>
+                        <span class="text"><b>Łatwy zwrot towaru</b> w ciagu 14 dni</span>
+                    </div>
+                    <div class="info">
+                        <span class="icon"><i class="demo-icon icon-box"></i></span> <span class="text"><b>Darmowa dostawa</b> od 599 zł</span>
+                    </div>
+                    <div class="info">
+                        <span class="icon"><i class="demo-icon icon-shipped"></i></span> <span class="text"><b>Szybka dostawa w 48h</b></span>
+                    </div>
+                </div>
+                <hr class="onlyMobile">
+            </div>
+        </div>
+
+        <div id="variants">
+            <h1>Dostępne warianty</h1>
+            <div class="variant_list">
+                <div class="variant">
+                    <a class="product_image" href="#"><img src="assets/images/version-1.png" alt="" /></a>
+                    <div class="description">
+                        <div class="product_name">
+                            <a href="#">
+                                <h2>Bambusowe Naczynie dla Dzieci Ambition Junior Alex</a>
+                            </h2>
+                        </div>
+                        <div class="product_available">
+                            <span class="green"></span> Dostępny 3 szt.
+                        </div>
+                        <div class="product_price">
+                            29,00 zł / szt.
+                        </div>
+                        <div class="product_cart">
+                            <div class="qty">
+                                <input type="number" value="1" name="" />
+                            </div>
+                            <div class="add_to_cart">
+                                Do koszyka
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="variant">
+                    <a class="product_image" href="#"><img src="assets/images/version-2.png" alt="" /></a>
+                    <div class="description">
+                        <div class="product_name">
+                            <a href="#">
+                                <h2>Bambusowe Naczynie dla Dzieci Ambition Junior Alex</a>
+                            </h2>
+                        </div>
+                        <div class="product_available">
+                            <span class="green"></span> Dostępny 3 szt.
+                        </div>
+                        <div class="product_price">
+                            29,00 zł / szt.
+                        </div>
+                        <div class="product_cart">
+                            <div class="qty">
+                                <input type="number" value="1" name="" />
+                            </div>
+                            <div class="add_to_cart">
+                                Do koszyka
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="variant">
+                    <a class="product_image" href="#"><img src="assets/images/version-3.png" alt="" /></a>
+                    <div class="description">
+                        <div class="product_name">
+                            <a href="#">
+                                <h2>Bambusowe Naczynie dla Dzieci Ambition Junior Alex</a>
+                            </h2>
+                        </div>
+                        <div class="product_available">
+                            <span class="green"></span> Dostępny 3 szt.
+                        </div>
+                        <div class="product_price">
+                            29,00 zł / szt.
+                        </div>
+                        <div class="product_cart">
+                            <div class="qty">
+                                <input type="number" value="1" name="" />
+                            </div>
+                            <div class="add_to_cart">
+                                Do koszyka
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="variant_set">
+        <h1>
+            W zestawie kupisz taniej
+        </h1>
+        <div class="color_hr"></div>
+        <div class="set_group">
+            <div class="set_image">
+                <img src="assets/images/photo_3a.png" alt="" />
+                <div class="plus"></div>
+                <img src="assets/images/photo_3b.png" alt="" />
+            </div>
+            <div class="set_group2">
+                <div class="set_info">
+                    Cena produktów poza zestawem 199,00 zł
+                </div>
+                <div class="set_price">
+                    149,00 zł / zestaw
+                </div>
+            </div>
+            <div class="check">
+                zobacz ofertę
+            </div>
+        </div>
+    </div>
+
+    <div id="product_specification">
+        <img class="product_image" src="assets/images/hs_2.png" alt="" />
+        <div class="info_group">
+            <h1>
+                Zestaw naczyń bambusowych dla dzieci Alex AMBITION JUNIOR
+            </h1>
+            <div class="color_hr"></div>
+            <p class="product_description">
+                Funkcjonalne, rozbudzające wyobraźnię, wesołe i kolorowe naczynia z kolekcji Mimi i Alex marki AMBITION zachęcą Twoje dziecko do samodzielnej nauki jedzenia. Wykonane 2 włókna bambusowego, które jest biodegradalne i ekologiczne oraz bezpieczne dla dzieci<br><br>                Produkt bezpieczny, dopuszczalny do kontaktu z żywnością. Nietuzinkowe wzornictwo produktów z kolekcji Mimi i Alex umilą chwile spędzone wspólnie przy stole.<br><br> Naczynia nadają się do mycia w zmywarce. Nie należy używać w mikrofalówce
+                i zamrażarce.<br><br> w skład zestawu wchodzą 3 elementy:<br><br> talerz: 21cm<br> miska: 360 ml<br> kubek: 180 ml<br><br> Kolor: odcienie brązowego, zielonego, kremowego Oferowany zestaw zapakowany jest w elegancki karton, dzięki czemu
+                doskonale nadaje się na prezent. Produkt przeznaczony dla młodszych dzieci.
+            </p>
+        </div>
+        <div class="specification_info_group">
+            <div class="specification">
+                Specyfikacja
+            </div>
+            <div class="color_hr"></div>
+            <div class="specification_group">
+                <div class="specification_row">
+                    <div class="specification_col">Producent:</div>
+                    <div class="specification_col"><a href="#">Ambition</a></div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Gwarancja</div>
+                    <div class="specification_col bold">2 lata</div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Przeznaczenie</div>
+                    <div class="specification_col bold">przedszkola, dzieci żłobkowe</div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Wymiar</div>
+                    <div class="specification_col bold">33m2 (aham cadr - 15m2)</div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Materiał</div>
+                    <div class="specification_col bold">aluminum</div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Zużycie energii (w)</div>
+                    <div class="specification_col bold">4-40</div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Zasilanie</div>
+                    <div class="specification_col bold">230v/50hz</div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Ilosć trybów pracy</div>
+                    <div class="specification_col bold">4</div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col">Czujnik ruchu</div>
+                    <div class="specification_col bold">z czujnikiem</div>
+                </div>
+                <div class="specification_row space-top">
+                    <div class="specification_col bold onlyMobile">Pliki do pobrania</div>
+                    <div class="specification_col bold"></div>
+                </div>
+                <div class="specification_row">
+                    <div class="specification_col"><span class="onlyDesktop"><b>Pliki do pobrania: </b></span>
+                        <i class="demo-icon icon-download"></i> <a href="#">
+                         Katalog producenta</a>
+                    </div>
+                    <div class="specification_col">
+                        <i class="demo-icon icon-download"></i> <a href="#">
+                         Katalog producenta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bestsellers">
+        <h1 class="onlyMobile">
+            Bestsellery
+        </h1>
+        <h1 class="onlyDesktop">
+            Zobacz podobne
+        </h1>
+        <div class="color_hr"></div>
+        <div class="bestsellers_group">
+            <div class="bestseller">
+                <img src="assets/images/hs_1.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+            <div class="bestseller">
+                <img src="assets/images/hs_2.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+            <div class="bestseller">
+                <img src="assets/images/hs_3.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+            <div class="bestseller">
+                <img src="assets/images/hs_4.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="questions">
+        <h1>Nasi klienci najczęściej pytali o:</h1>
+        <div class="color_hr"></div>
+        <div class="questions_content">
+            <div class="questions_group">
+                <div class="question">
+                    <p>Czy te miseczki mają atesty bezpieczeństwa?</p>
+                    <div class="collapse">Tak, jest bardziej wytrzymałe. Jakaś przykładowa odpowiedż, jakaś przykładowa. Jakaś przykładowa odpowiedż, jakaś przykładowa. </div>
+                </div>
+                <div class="question">
+                    <p>Czy te produkty są w 100% ekologiczne?</p>
+                    <div class="collapse">Tak, jest bardziej wytrzymałe. Jakaś przykładowa odpowiedż, jakaś przykładowa. Jakaś przykładowa odpowiedż, jakaś przykładowa. </div>
+                </div>
+                <div class="question">
+                    <p>Czy te miseczki nie uczulą 6 miesiecznego dziecka?</p>
+                    <div class="collapse">Tak, jest bardziej wytrzymałe. Jakaś przykładowa odpowiedż, jakaś przykładowa. Jakaś przykładowa odpowiedż, jakaś przykładowa. </div>
+                </div>
+            </div>
+            <div class="quiestion_info onlyDesktop">
+                <h1>Masz pytanie na temat tego produktu?</h1>
+                <p>Nasi specjaliści chętnie udzielą Ci potrzebnych informacji.</p>
+                <a href="#">
+                    Zadaj Pytanie
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="opinion">
+        <h1>Opinie o miseczka bambusowa myszka dla dzieci</h1>
+        <div class="color_hr"></div>
+        <div class="opinion_content">
+            <div class="opinion_rate_group">
+                <div class="product_rate_group">
+                    <div class="product_rate">
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <span>4.5</span>
+                    </div>
+                </div>
+                <div class="opinion_count">
+                    Liczba wystawionych opinii: 3
+                </div>
+                <a href="#">
+                    dodaj swoją opinię
+                </a>
+                <div class="ratings">
+                    <div class="rating_row">
+                        <span class="number">5</span>
+                        <i class="demo-icon icon-star"></i>
+                        <div class="rating_bar">
+                            <div class="rating_bar_80"></div>
+                        </div>
+                        <span class="count">(21)</span>
+                    </div>
+                    <div class="rating_row">
+                        <span class="number">4</span>
+                        <i class="demo-icon icon-star"></i>
+                        <div class="rating_bar">
+                            <div class="rating_bar_30"></div>
+                        </div>
+                        <span class="count">(5)</span>
+                    </div>
+                    <div class="rating_row">
+                        <span class="number">3</span>
+                        <i class="demo-icon icon-star"></i>
+                        <div class="rating_bar">
+
+                        </div>
+                        <span class="count">(0)</span>
+                    </div>
+                    <div class="rating_row">
+                        <span class="number">2</span>
+                        <i class="demo-icon icon-star"></i>
+                        <div class="rating_bar">
+
+                        </div>
+                        <span class="count">(0)</span>
+                    </div>
+                    <div class="rating_row">
+                        <span class="number">1</span>
+                        <i class="demo-icon icon-star"></i>
+                        <div class="rating_bar">
+                            <div class="rating_bar_10"></div>
+                        </div>
+                        <span class="count">(1)</span>
+                    </div>
+                </div>
+                <div class="filters">
+                    Kliknij ocenę, aby filtrować opinie
+                </div>
+            </div>
+            <div class="products_opinions_group">
+                <div class="opinion_row">
+                    <div class="rating">
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <span>5/5</span>
+                    </div>
+                    <p>Towar zgodny z opisem. Szybka wysyłka. Gorąco polecam</p>
+                    <div class="info">
+                        <div class="title">
+                            22.01.2020 Wera, Szczecin, Polska
+                        </div>
+                        <div class="infor">
+                            <span class="title">
+                                Czy ta opinia była pomocna?
+                            </span>
+                            <span class="up">
+                                <i class="demo-icon icon-thumbs-up-alt"></i> Tak (3)
+                            </span>
+                            <span class="down">
+                                <i class="demo-icon icon-thumbs-down"></i> Nie (0)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinion_row">
+                    <div class="rating">
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <span>5/5</span>
+                    </div>
+                    <p>Towar zgodny z opisem. Szybka wysyłka. Gorąco polecam</p>
+                    <div class="info">
+                        <div class="title">
+                            22.01.2020 Wera, Szczecin, Polska
+                        </div>
+                        <div class="infor">
+                            <span class="title">
+                                Czy ta opinia była pomocna?
+                            </span>
+                            <span class="up">
+                                <i class="demo-icon icon-thumbs-up-alt"></i> Tak (3)
+                            </span>
+                            <span class="down">
+                                <i class="demo-icon icon-thumbs-down"></i> Nie (0)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="opinion_row">
+                    <div class="rating">
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <i class="demo-icon icon-star"></i>
+                        <span>5/5</span>
+                    </div>
+                    <p>Towar zgodny z opisem. Szybka wysyłka. Gorąco polecam</p>
+                    <div class="info">
+                        <div class="title">
+                            22.01.2020 Wera, Szczecin, Polska
+                        </div>
+                        <div class="infor">
+                            <span class="title">
+                                Czy ta opinia była pomocna?
+                            </span>
+                            <span class="up">
+                                <i class="demo-icon icon-thumbs-up-alt"></i> Tak (3)
+                            </span>
+                            <span class="down">
+                                <i class="demo-icon icon-thumbs-down"></i> Nie (0)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bestsellers">
+        <h1 class="onlyMobile">
+            Bestsellery
+        </h1>
+        <h1 class="onlyDesktop">
+            Przyda Ci się również
+        </h1>
+        <div class="color_hr"></div>
+        <div class="bestsellers_group">
+            <div class="bestseller">
+                <img src="assets/images/hs_1.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+            <div class="bestseller">
+                <img src="assets/images/hs_2.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+            <div class="bestseller">
+                <img src="assets/images/hs_3.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+            <div class="bestseller">
+                <img src="assets/images/hs_4.png" alt="" />
+                <h2>Bambusowe Naczynia dla Dzieci Ambition Junior Mimi</h2>
+                <div class="price">129,00 zł</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_content">
+            <div class="menu_group">
+                <div class="text_head">
+                    Moje zamówienie
+                    <div class="sub"><i class="demo-icon icon-battery-level"> </i>Status zamówienia</div>
+                    <div class="sub"><i class="demo-icon icon-shipped"></i> Śledzenie przesyłki</div>
+                    <div class="sub"><i class="demo-icon icon-sad"></i> Chcę zareklamować towar</div>
+                    <div class="sub"><i class="demo-icon icon-left-open"></i> Chcę zwrócić towar</div>
+                    <div class="sub"><i class="demo-icon icon-right-open"></i> Chcę wymienić towar</div>
+                </div>
+                <div class="text_head">
+                    Moje konto
+                    <div class="sub onlyDesktop"><i class="demo-icon icon-register"></i> Zarejestruj się</div>
+                    <div class="sub onlyDesktop"><i class="demo-icon icon-mail"></i> Moje zamówienia</div>
+                    <div class="sub onlyDesktop"><i class="demo-icon icon-basket"></i> Koszyk</div>
+                    <div class="sub onlyDesktop"><i class="demo-icon icon-star"></i> Ulubione</div>
+                    <div class="sub onlyDesktop"><i class="demo-icon icon-clock"></i> Hisotira transakcji</div>
+                    <div class="sub onlyDesktop"><i class="demo-icon icon-cut"></i> Moje rabaty</div>
+                    <div class="sub onlyDesktop"><i class="demo-icon icon-mail"></i> Newsletter</div>
+                </div>
+                <div class="text_head">
+                    Regulaminy
+                </div>
+                <div class="text_head">
+                    Informacje
+                    <div class="socials">
+                        <i class="demo-icon icon-facebook-circular-logo"></i>
+                        <i class="demo-icon icon-instagram"></i>
+                    </div>
+                    <div class="text_head">
+                        575848808<br> sklep@filikos.pl
+                        <br>
+                        <span>pn-pt 8.00-16.00<br>
+                sb 8:00-14:00)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="desktop_footer onlyDesktop">
+                <span>
+                    Filikos, al.Kwiatowa 30, 71-065 Szczecin
+                </span>
+                <div class="hr"></div>
+                <img src="assets/images/powered_by_IdoSell_black.svg" alt="" />
+            </div>
+            <div class="logos">
+                <img src="assets/images/logos/1.png" alt="" />
+                <img src="assets/images/logos/2.png" alt="" />
+                <img src="assets/images/logos/3.png" alt="" />
+                <img src="assets/images/logos/4.png" alt="" />
+                <img src="assets/images/logos/5.png" alt="" />
+                <img src="assets/images/logos/6.png" alt="" />
+                <img src="assets/images/logos/7.png" alt="" />
+            </div>
+
+            <div class="powered onlyMobile">
+                <img src="assets/images/powered_by_IdoSell_black.svg" alt="" />
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
